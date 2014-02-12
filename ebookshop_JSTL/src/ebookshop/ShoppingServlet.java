@@ -41,6 +41,7 @@ public class ShoppingServlet extends HttpServlet
       blist.addElement("Beginning Android 4. Livingston $39.99");
       blist.addElement("Pro Spatial with SQL Server 2012. Alastair Aitchison $59.99");
       blist.addElement("Beginning Database Design. Clare Churcher $34.99");
+      blist.addElement("PRUEBA. Clare Churcher $34.99");
       session.setAttribute("ebookshop.list", blist);
       ServletContext    sc = getServletContext();
       RequestDispatcher rd = sc.getRequestDispatcher("/");
